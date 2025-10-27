@@ -3,12 +3,15 @@
 The SWOT analysis from perspective of Strengths, Weaknesses, Opportunities
 and Threats.
 
-
 ## 1. Strengths
   Strengths: items as advantages, benefits.
 
-  ### 1.1 Pricing
-  - free (open source)
+  ### 1.1 Pricing & Support
+  - Licence: Free (open source)
+  - Support: Open source community
+  - Production Support: 
+    - Not available (without SaaS/iPaaS)
+    - Available as solution of 3rd party SW (in products Cloudera, Snowflake, Ksolves, etc.)
 
   ### 1.2 Functionalities
   - Support on-prem, cloud
@@ -42,14 +45,14 @@ and Threats.
   Weaknesses: items as disadvantages, limited functions.
 
   ### 2.1 Testing
-  - missing default E2E test for validation of new Apache NiFi versions  
+  - Missing default E2E test for validation of new Apache NiFi versions  
 
   ### 2.2 Security
-  - limited privileges (without setting in project level)
+  - Limited privileges (without setting in project, flow level)
 
   ### 2.3 Others
-  - without deployment functionalities (package & env. extensions)
-  - only external relation on CI/CD
+  - Without deployment functionalities (package & env. extensions)
+  - Only external relation on CI/CD
 
 ## 3. Opportunities
 
