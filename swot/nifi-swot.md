@@ -39,7 +39,7 @@ and Threats.
   - Cloudera
   - Snowflake
   - Ksolves
-  - etc. (see https://nifi.apache.org/community/powered-by/)
+  - Etc. (see https://nifi.apache.org/community/powered-by/)
 
 ## 2. Weaknesses
   Weaknesses: items as disadvantages, limited functions.
