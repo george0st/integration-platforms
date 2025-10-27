@@ -21,6 +21,8 @@ and Threats.
   - Support on-prem, cloud
 
   ### 1.3 Connectors
+  - tbd.
+  - see [link](https://boomi.com/connectors/)
 
   ### 1.4 Environment
   - Java 11
