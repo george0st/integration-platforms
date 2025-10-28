@@ -6,21 +6,27 @@ and Threats.
 ## 1. Strengths
   Strengths: items as advantages, benefits.
 
-  ### 1.1 Pricing & Support
-  - Licence: Free (open source)
-  - Support: Open source community
-  - Production Support: 
-    - Not available (without SaaS/iPaaS)
-    - Available as solution of 3rd party SW (in products Cloudera, Snowflake, Ksolves, etc.)
+  ### 1.1 Licence & Support
+  - **Licence**
+    - Free (open source)
+  - **Support** 
+    - Not available (only open source community support, without iPaaS)
+    - Only available as solution of 3rd party SW (in products Cloudera, Snowflake, Ksolves, etc.)
 
   ### 1.2 Functionalities
-  - Support on-prem, cloud
-  - Prevention of system overloading (via throttling)
-  - Throttling as default (via amount of items in queue and total queue size)
-  - Parallel processing as default (amount of executors, data distribution via queues)
-  - Native formats CSV, XML, JSON
+  - **Environment**
+    - on-prem, cloud
+  - **Reliability**
+    - Prevention of system overloading (via throttling)
+    - Throttling as default (via amount of items in queue and total queue size)
+  - **Scaling**
+    - Parallel processing as default (amount of executors, data distribution via queues)
+  - **Streaming**
+    - tbd.
+  - **Native formats**
+    - CSV, XML, JSON
 
-  ### 1.3 Connectors
+  ### 1.3 Infrastructure Connectors
   - File transfer, AWS S2, Azure BlobStorage
   - SQL (Postgres, MySQL)
   - NoSQL (Mongo)
@@ -44,13 +50,15 @@ and Threats.
 ## 2. Weaknesses
   Weaknesses: items as disadvantages, limited functions.
 
-  ### 2.1 Testing
+  ### 2.1 Connectors
+
+  ### 2.2 Testing
   - Missing default E2E test for validation of new Apache NiFi versions  
 
-  ### 2.2 Security
+  ### 2.3 Security
   - Limited privileges (without setting in project, flow level)
 
-  ### 2.3 Others
+  ### 2.4 Others
   - Without deployment functionalities (package & env. extensions)
   - Only external relation on CI/CD
 

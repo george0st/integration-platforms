@@ -7,20 +7,46 @@ and Threats.
 ## 1. Strengths
   Strengths: items as advantages, benefits.
 
-  ### 1.1 Pricing & Support
-  - Licence:
+  ### 1.1 Licence & Support
+  - **Licence**
     - Free trial (for 30 days, limited functionalities)
     - Pay-as-you-go
     - Subscription plans (for Integration, API Management, Data Hub, Data Integration)
-  - Support:
-    - Available Levels: Basic Support, Enhanced Suppor, Advocate Bundle, Side by Side Bundle (see [link](https://boomi.com/services/support/))
-  - Production Support: 
-    - SaaS/iPaaS
+  - **Support**
+    - iPaaS (Integration Platform as a Service)
+    - Support levels
+      - Basic Support, Enhanced Support, Advocate Bundle, Side by Side Bundle (see [link](https://boomi.com/services/support/))
 
   ### 1.2 Functionalities
-  - Support on-prem, cloud
+  - **Environment**
+    - on-prem, cloud
+  - **Reliability**
+  - **Scaling**
+    - Parallel running (paid function)
+  - **Streaming**
+    - Kafka (via connector)
+    - Event Streams (via Apache Pulsar, paid function)
+  - **Native formats**
+    - XML, JSON, CSV, TXT, EDI
 
-  ### 1.3 Connectors
+  ### 1.3 Infrastructure Connectors
+  - **Summary**
+    - 1500+ connectors, see [link](https://boomi.com/connectors/)
+  - **Infrastructure connectors**
+    - File/Batch
+      - FTP, SFTP, Google Storage, Azure Blob Storage, AWS S3
+    - SQL
+      - MySQL, Postgress, MS SQL, Oracle, Redshift, JDBC/ODBC
+    - NoSQL
+      - CosmosDB, DynamoDB, MongoDB, MemoryDB
+    - Event Driven
+      - Kafka, RabbitMQ, JMS, Amazon EventBridge, Amazon SQS, Google Pub Sub, Azure ServiceBus
+    - Others
+      - Snowflake, Google BigQuery
+      - DropBox, Sharepoint, Google Sheets, GitHub
+      - Slack, Zoom, Trello, Twitter, Splunk, MS Teams, Twilio
+      - ServiceNow, Zendesk, JIRA, Anodot
+      - SMTP/POP, LDAP
 
   ### 1.4 Environment
   - Java 11
@@ -34,11 +60,13 @@ and Threats.
 ## 2. Weaknesses
   Weaknesses: items as disadvantages, limited functions.
 
-  ### 2.1 Testing
+  ### 2.1 Connectors
 
-  ### 2.2 Security
+  ### 2.2 Testing
 
-  ### 2.3 Others
+  ### 2.3 Security
+
+  ### 2.4 Others
 
 ## 3. Opportunities
   Opportunities: items could exploit to its advantage, future direction.
