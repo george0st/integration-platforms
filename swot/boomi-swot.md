@@ -8,14 +8,14 @@ and Threats.
   Strengths: items as advantages, benefits.
 
   ### 1.1 Licence & Support
-  - Licence:
+  - **Licence**
     - Free trial (for 30 days, limited functionalities)
     - Pay-as-you-go
     - Subscription plans (for Integration, API Management, Data Hub, Data Integration)
-  - Support:
-    - Basic Support, Enhanced Support, Advocate Bundle, Side by Side Bundle (see [link](https://boomi.com/services/support/))
-  - Production Support: 
+  - **Support**
     - iPaaS (Integration Platform as a Service)
+    - Support levels
+      - Basic Support, Enhanced Support, Advocate Bundle, Side by Side Bundle (see [link](https://boomi.com/services/support/))
 
   ### 1.2 Functionalities
   - **Environment**

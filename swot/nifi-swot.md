@@ -7,10 +7,10 @@ and Threats.
   Strengths: items as advantages, benefits.
 
   ### 1.1 Licence & Support
-  - Licence: Free (open source)
-  - Support: Open source community
-  - Production Support: 
-    - Not available (without SaaS/iPaaS)
+  - **Licence**
+    - Free (open source)
+  - **Support** 
+    - Not available (only open source community support, without iPaaS)
     - Only available as solution of 3rd party SW (in products Cloudera, Snowflake, Ksolves, etc.)
 
   ### 1.2 Functionalities
