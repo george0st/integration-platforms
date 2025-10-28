@@ -7,15 +7,15 @@ and Threats.
 ## 1. Strengths
   Strengths: items as advantages, benefits.
 
-  ### 1.1 Pricing & Support
+  ### 1.1 Licence & Support
   - Licence:
     - Free trial (for 30 days, limited functionalities)
     - Pay-as-you-go
     - Subscription plans (for Integration, API Management, Data Hub, Data Integration)
   - Support:
-    - Available Levels: Basic Support, Enhanced Suppor, Advocate Bundle, Side by Side Bundle (see [link](https://boomi.com/services/support/))
+    - Basic Support, Enhanced Support, Advocate Bundle, Side by Side Bundle (see [link](https://boomi.com/services/support/))
   - Production Support: 
-    - SaaS/iPaaS
+    - iPaaS (Integration Platform as a Service)
 
   ### 1.2 Functionalities
   - Support on-prem, cloud
@@ -36,11 +36,13 @@ and Threats.
 ## 2. Weaknesses
   Weaknesses: items as disadvantages, limited functions.
 
-  ### 2.1 Testing
+  ### 2.1 Connectors
 
-  ### 2.2 Security
+  ### 2.2 Testing
 
-  ### 2.3 Others
+  ### 2.3 Security
+
+  ### 2.4 Others
 
 ## 3. Opportunities
   Opportunities: items could exploit to its advantage, future direction.

@@ -6,12 +6,12 @@ and Threats.
 ## 1. Strengths
   Strengths: items as advantages, benefits.
 
-  ### 1.1 Pricing & Support
+  ### 1.1 Licence & Support
   - Licence: Free (open source)
   - Support: Open source community
   - Production Support: 
     - Not available (without SaaS/iPaaS)
-    - Available as solution of 3rd party SW (in products Cloudera, Snowflake, Ksolves, etc.)
+    - Only available as solution of 3rd party SW (in products Cloudera, Snowflake, Ksolves, etc.)
 
   ### 1.2 Functionalities
   - Support on-prem, cloud
@@ -44,13 +44,15 @@ and Threats.
 ## 2. Weaknesses
   Weaknesses: items as disadvantages, limited functions.
 
-  ### 2.1 Testing
+  ### 2.1 Connectors
+
+  ### 2.2 Testing
   - Missing default E2E test for validation of new Apache NiFi versions  
 
-  ### 2.2 Security
+  ### 2.3 Security
   - Limited privileges (without setting in project, flow level)
 
-  ### 2.3 Others
+  ### 2.4 Others
   - Without deployment functionalities (package & env. extensions)
   - Only external relation on CI/CD
 
