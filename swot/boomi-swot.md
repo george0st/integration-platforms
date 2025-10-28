@@ -18,11 +18,35 @@ and Threats.
     - iPaaS (Integration Platform as a Service)
 
   ### 1.2 Functionalities
-  - Support on-prem, cloud
+  - **Environment**
+    - on-prem, cloud
+  - **Reliability**
+  - **Scaling**
+    - Parallel running (paid function)
+  - **Streaming**
+    - Kafka (via connector)
+    - Event Streams (via Apache Pulsar, paid function)
+  - **Native formats**
+    - XML, JSON, CSV, TXT, EDI
 
-  ### 1.3 Connectors
-  - tbd.
-  - see [link](https://boomi.com/connectors/)
+  ### 1.3 Infrastructure Connectors
+  - **Summary**
+    - 1500+ connectors, see [link](https://boomi.com/connectors/)
+  - **Infrastructure connectors**
+    - File/Batch
+      - FTP, SFTP, Google Storage, Azure Blob Storage, AWS S3
+    - SQL
+      - MySQL, Postgress, MS SQL, Oracle, Redshift, JDBC/ODBC
+    - NoSQL
+      - CosmosDB, DynamoDB, MongoDB, MemoryDB
+    - Event Driven
+      - Kafka, RabbitMQ, JMS, Amazon EventBridge, Amazon SQS, Google Pub Sub, Azure ServiceBus
+    - Others
+      - Snowflake, Google BigQuery
+      - DropBox, Sharepoint, Google Sheets, GitHub
+      - Slack, Zoom, Trello, Twitter, Splunk, MS Teams, Twilio
+      - ServiceNow, Zendesk, JIRA, Anodot
+      - SMTP/POP, LDAP
 
   ### 1.4 Environment
   - Java 11

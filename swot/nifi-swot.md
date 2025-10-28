@@ -14,13 +14,19 @@ and Threats.
     - Only available as solution of 3rd party SW (in products Cloudera, Snowflake, Ksolves, etc.)
 
   ### 1.2 Functionalities
-  - Support on-prem, cloud
-  - Prevention of system overloading (via throttling)
-  - Throttling as default (via amount of items in queue and total queue size)
-  - Parallel processing as default (amount of executors, data distribution via queues)
-  - Native formats CSV, XML, JSON
+  - **Environment**
+    - on-prem, cloud
+  - **Reliability**
+    - Prevention of system overloading (via throttling)
+    - Throttling as default (via amount of items in queue and total queue size)
+  - **Scaling**
+    - Parallel processing as default (amount of executors, data distribution via queues)
+  - **Streaming**
+    - tbd.
+  - **Native formats**
+    - CSV, XML, JSON
 
-  ### 1.3 Connectors
+  ### 1.3 Infrastructure Connectors
   - File transfer, AWS S2, Azure BlobStorage
   - SQL (Postgres, MySQL)
   - NoSQL (Mongo)
