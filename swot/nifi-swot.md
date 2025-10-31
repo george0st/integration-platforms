@@ -40,6 +40,7 @@ Last update: 2025/10 (Apache NiFi 2.6)
   - Other
     - WebSocket, Amazon Lambda, Splunk, SalesForce
     - ElasticSearch, IMAP, POP3, Slack, Twitter, DropBox, ZenDesk, Amazon Glue 
+    - GitHub, GitLab
 
   ### 1.4 Environment
   - Java 21
