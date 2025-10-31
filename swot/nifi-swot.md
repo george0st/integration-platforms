@@ -30,9 +30,16 @@ Last update: 2025/10 (Apache NiFi 2.6)
 
   ### 1.3 Connectors
   - File transfer, AWS S2, Azure BlobStorage
-  - SQL (Postgres, MySQL)
-  - NoSQL (Mongo)
+    - Azure BlobStorage, AWS S3, Google CloudBucket, Google Drive, Azure DataLake, SFTP/FTP,   
+  - SQL
+    - MySQL, JDBC,
+  - NoSQL
+    - DynamoDB, Mongo, Google BigGuery
   - Event streaming (MQ, Kafka)
+    - AMQP, Azure EventHub, Google Cloud PubSubs, JMS, Kafka, KinesisStream, MQTT, 
+  - Other
+    - WebSocket, Amazon Lambda, Splunk, SalesForce
+    - ElasticSearch, IMAP, POP3, Slack, Twitter, DropBox, ZenDesk, Amazon Glue 
 
   ### 1.4 Environment
   - Java 21
