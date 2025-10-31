@@ -29,14 +29,17 @@ Last update: 2025/10 (Apache NiFi 2.6)
     - CSV, XML, JSON
 
   ### 1.3 Connectors
-  - File transfer, AWS S2, Azure BlobStorage
-    - Azure BlobStorage, AWS S3, Google CloudBucket, Google Drive, Azure DataLake, SFTP/FTP,   
+  - **Summary**
+    - only infrastructure connectors/processors, see [link](https://nifi.apache.org/components/)
+  - **Infrastructure connectors**
+  - File/Batch
+    - SFTP/FTP, Azure BlobStorage, Azure DataLake, AWS S3, Google CloudBucket, Google Drive   
   - SQL
-    - MySQL, JDBC,
+    - MySQL, JDBC
   - NoSQL
-    - DynamoDB, Mongo, Google BigGuery
-  - Event streaming (MQ, Kafka)
-    - AMQP, Azure EventHub, Google Cloud PubSubs, JMS, Kafka, KinesisStream, MQTT, 
+    - DynamoDB, Mongo, Google BigQuery
+  - Event streaming
+    - Kafka, JMS/AMQP/MQTT, Azure EventHub, Google Cloud PubSubs, KinesisStream  
   - Other
     - WebSocket, Amazon Lambda, Splunk, SalesForce
     - ElasticSearch, IMAP, POP3, Slack, Twitter, DropBox, ZenDesk, Amazon Glue 
