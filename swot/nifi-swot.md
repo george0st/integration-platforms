@@ -1,7 +1,9 @@
 # NiFi SWOT analysis
 
 The SWOT analysis from perspective of Strengths, Weaknesses, Opportunities
-and Threats.
+and Threats. 
+
+Last update: 2025/10 (Apache NiFi 2.6)
 
 ## 1. Strengths
   Strengths: items as advantages, benefits.
@@ -10,7 +12,7 @@ and Threats.
   - **Licence**
     - Free (open source)
   - **Support** 
-    - Not available (only open source community support, without iPaaS)
+    - Not available (without iPaaS, only open source community support)
     - Only available as solution of 3rd party SW (in products Cloudera, Snowflake, Ksolves, etc.)
 
   ### 1.2 Functionalities
@@ -26,11 +28,22 @@ and Threats.
   - **Native formats**
     - CSV, XML, JSON
 
-  ### 1.3 Infrastructure Connectors
-  - File transfer, AWS S2, Azure BlobStorage
-  - SQL (Postgres, MySQL)
-  - NoSQL (Mongo)
-  - Event streaming (MQ, Kafka)
+  ### 1.3 Connectors
+  - **Summary**
+    - only infrastructure connectors/processors, see [link](https://nifi.apache.org/components/)
+  - **Infrastructure connectors**
+  - File/Batch
+    - SFTP/FTP, Azure BlobStorage, Azure DataLake, AWS S3, Google CloudBucket, Google Drive   
+  - SQL
+    - MySQL, JDBC
+  - NoSQL
+    - DynamoDB, Mongo, Google BigQuery
+  - Event streaming
+    - Kafka, JMS/AMQP/MQTT, Azure EventHub, Google Cloud PubSubs, KinesisStream  
+  - Other
+    - WebSocket, Amazon Lambda, Splunk, SalesForce
+    - ElasticSearch, IMAP, POP3, Slack, Twitter, DropBox, ZenDesk, Amazon Glue 
+    - GitHub, GitLab
 
   ### 1.4 Environment
   - Java 21

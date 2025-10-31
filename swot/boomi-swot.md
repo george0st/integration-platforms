@@ -1,8 +1,9 @@
-# Boomi SWOT analysis
+# Boomi SWOT analysis (update 2025/10)
 
 The SWOT analysis from perspective of Strengths, Weaknesses, Opportunities
 and Threats.
 
+Last update: 2025/10 (Boomi ???)
 
 ## 1. Strengths
   Strengths: items as advantages, benefits.
@@ -29,14 +30,14 @@ and Threats.
   - **Native formats**
     - XML, JSON, CSV, TXT, EDI
 
-  ### 1.3 Infrastructure Connectors
+  ### 1.3 Connectors
   - **Summary**
     - 1500+ connectors, see [link](https://boomi.com/connectors/)
   - **Infrastructure connectors**
     - File/Batch
-      - FTP, SFTP, Google Storage, Azure Blob Storage, AWS S3
+      - SFTP/FTP, Google Storage, Azure Blob Storage, AWS S3
     - SQL
-      - MySQL, Postgress, MS SQL, Oracle, Redshift, JDBC/ODBC
+      - MySQL, Postgress, MS SQL, Oracle, Redshift, JDBC/ODBC, Firebird (via JDBC)
     - NoSQL
       - CosmosDB, DynamoDB, MongoDB, MemoryDB
     - Event Driven
