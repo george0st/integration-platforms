@@ -54,10 +54,8 @@ Last update: 2025/10 (Apache NiFi 2.6)
   - Node coordination and primary node definition via Zookeeper
   - Unlimited amount of nodes (real clusters use from 2 to 1k nodes)
 
-  ### 1.6 Key contributors
-  - Cloudera
-  - Snowflake
-  - Ksolves
+  ### 1.6 Key customers/contributors
+  - Cloudera, Snowflake, Apple, IBM, Ksolves
   - Etc. (see https://nifi.apache.org/community/powered-by/)
 
 ## 2. Weaknesses

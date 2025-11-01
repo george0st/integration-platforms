@@ -56,7 +56,8 @@ Last update: 2025/10 (Boomi ???)
   ### 1.5 Architecture
   - Limited amount of molecules/nodes (from 3 to 10)
 
-  ### 1.6 Key contributors
+  ### 1.6 Key customers/contributors
+  - AT&T, American Expres
 
 ## 2. Weaknesses
   Weaknesses: items as disadvantages, limited functions.
