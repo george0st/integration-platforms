@@ -24,7 +24,7 @@
 | Vendor lock-in  | No                                                   | Yes (one vendor, typicall licence with annual payment)                                                                                   
 | Licence         | Open source (Apache License 2.0)                     | Commercial ([complex pricing + free trial 30 days](https://boomi.com/pricing/))
 | Pricing         | Free                                                 | [Free trial](https://boomi.com/pricing/#free-trial) (only 30 days, limited functionalities)]; [Pay-as-you-go](https://boomi.com/pricing/#pay-as-you-go); [Subscription plans](https://boomi.com/pricing/#subscription-plans) (for Integration, API Management, Data Hub, Data Integration)
-| Customers       | Cloudera, Snowflake, Apple, SAP, EPAM, Ksolves, etc. | BNP Paribas, Chevron, Novartis, NNIT, Dell, Sky, etc.
+| Customers       | Cloudera, Snowflake, Apple, SAP, EPAM, Ksolves, etc. | Dell, NNIT, Novartis, BNP Paribas, Chevron, Sky, etc.
 
 NOTE:
  - NiFi, is abbreviation of NiagaraFiles
@@ -34,29 +34,22 @@ NOTE:
 ### 3.2 Support & Customers
 |                 | Apache NiFi                                          | Boomi                                                                                                             |
 |-----------------|------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| Support level   | Only free support (Slack, StackOverflow, etc.)       | Strong [support](https://boomi.com/services/support/) (inc. platform Dev & Assurance, platform arch, enterprise arch, etc.)                                                                                                     
+| Support level   | Only free support (Slack, StackOverflow, etc.)       | [Levels](https://boomi.com/services/support/) Basic Support, Enhanced Support, Advocate Bundle, Side by Side Bundle                                                                                                     
 | Support channel | Portal                                               | Portal, Phone, Chat
 | Support SLA     | Without SLA                                          | SLA based on support level (24x7, 12x7, etc.)
 
-### 3.2 Knowledge
-|               | Apache NiFi                                                                                                                                                 | Boomi                                                                                                             |
-|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| Community     | Medium (free [NiFi](https://nifi.apache.org/community/), [LinkedIn](https://www.linkedin.com/company/apache-nifi/), [Slack](https://apachenifi.slack.com/)) | High (free [Boomi](https://community.boomi.com/), [LinkedIn](https://www.linkedin.com/company/boomi-inc/))
-| Training      | Low (paid Udemu, free tutorials in YouTube, Webs, etc.)                                                                                                     | High (free [trainings](https://train.boomi.com/page/course-catalog))
-| Certification | Low (paid Udemy, etc.)                                                                                                                                      | High (free [certifications](https://train.boomi.com/page/course-catalog#type_certification))
-
-### 3.2 Architecture & Environments & Scaling
-|                    | Apache NiFi                                                         | Boomi                      |
-|--------------------|---------------------------------------------------------------------|----------------------------|
-| Architecture       | Pear-to-pear cluster architecture, coordination/synch via Zookeeper | Client-server architecture
-| Environments       | On-prem, Cloud, Multi-cloud, Hybrid                                 | On-prem, Cloud, Multi-cloud, Hybrid
-| Cloud architecture | Without iPass (own infra or hosting is needed)                      | iPaaS 
-| Scaling            | Without limitations for scale up/out (also solutions with 1k nodes) | Unlimited scale up, limited scale out (cluster can have maximal 10 moleculas/nodes)
+### 3.3 Architecture & Environments & Scaling
+|              | Apache NiFi                                                         | Boomi                      |
+|--------------|---------------------------------------------------------------------|----------------------------|
+| Architecture | Pear-to-pear cluster architecture, coordination/synch via Zookeeper | Client-server architecture
+| Environments | On-prem, Cloud, Multi-cloud, Hybrid                                 | On-prem, Cloud, Multi-cloud, Hybrid
+| Service type | Without service support (own infra or hosting is needed)            | iPaaS 
+| Scaling      | Without limitations for scale up/out (also solutions with 1k nodes) | Unlimited scale up, limited scale out (cluster can have maximal 10 moleculas/nodes)
 
 NOTE:
  - Boomi, has limit for maximal amount of moleculas/nodes in one cluster
 
-### 3.3 Integration & Formats
+### 3.4 Integration & Formats
 |                | Apache NiFi                                                                                      | Boomi                      |
 |----------------|--------------------------------------------------------------------------------------------------|----------------------------|
 | Integration    | ~100 connectors/processors and focus on technology connectors (SFTP, Mongo, MySQL, Kafka, etc.) | >1.500 connectors, technology connectors + business connectors (Salesforce, SAP, NetSuite, etc.)
@@ -66,7 +59,7 @@ NOTE:
 NOTE:
  - Boomi, provides unexpected amount of connectors (include business connectors) and support EDI format
 
-### 3.4 Development & Tests
+### 3.5 Development & Tests
 |                     | Apache NiFi                                                                                  | Boomi                                                                      |
 |---------------------|----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | Runtime environment | Java 21                                                                                      | Java 11
@@ -75,32 +68,38 @@ NOTE:
 | Code management     | Limited own versioning (for extended functionalities, ext tools are needed GitHub/Lab, etc.) | Build in versioning in tool
 | Testing             | In the GUI (flow & processor/controller levels)                                              | In the GUI (test flow)
 
-Terminology 
++Terminology 
 
 NOTE:
 - NiFi, Dev GUI without content hierarchy
 - Boomi, older Java version (limited features & performance and can generate issue in case of build our own connectors)
 
-### 3.5 Deployment
+### 3.6 Deployment
 |                     | Apache NiFi                                 | Boomi                                                                      |
 |---------------------|---------------------------------------------|----------------------------------------------------------------------------|
 | Env. configuration  | Yes (via ???)                               | Yes (via extensions)
 | CI/CD               | No (only exp/imp flow files, without CI/CD) | Yes (full support versioning/packaging, deployment/rollback, env. configuration) 
 
-
-### 3.6 Security
+### 3.7 Security
 |                        | Apache NiFi                        | Boomi                      |
 |------------------------|------------------------------------|----------------------------|
 | Security certification | Without enterprise certifications  | Enterprise compliance (e.g. HIPAA, SOC2, etc.) 
 | Security SSO           |                                    |
 | Security RBAC          |                                    |
 
-
-### 3.7 Maintenance
+### 3.8 Maintenance
 |                                | Apache NiFi                                        | Boomi                      |
 |--------------------------------|----------------------------------------------------|----------------------------|
 | Monitoring and alerts          | Basic functionalities, external tooling is needed  | Native monitoring, allerts, audit logs               
-| Reporting                      |                                                    | 
+| Reporting                      |                                                    |
+
+### 3.9 Knowledge
+|                | Apache NiFi                                                                                                                                                 | Boomi                                                                                                             |
+|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| Training       | Low (paid Udemu, free tutorials in YouTube, Webs, etc.)                                                                                                     | High (free [trainings](https://train.boomi.com/page/course-catalog))
+| Certification  | Low (paid Udemy, etc.)                                                                                                                                      | High (free [certifications](https://train.boomi.com/page/course-catalog#type_certification))
+| Community      | Medium (free [NiFi](https://nifi.apache.org/community/), [LinkedIn](https://www.linkedin.com/company/apache-nifi/), [Slack](https://apachenifi.slack.com/)) | High (free [Boomi](https://community.boomi.com/), [LinkedIn](https://www.linkedin.com/company/boomi-inc/))
+| Community size | [~4k clients](https://enlyft.com/tech/products/apache-nifi), ~30k users in LinkedIn                                                                         | [~23k clients](https://canvasbusinessmodel.com/blogs/growth-strategy/boomi-growth-strategy)
 
 TBD. Known limits
 

@@ -57,7 +57,7 @@ Last update: 2025/10 (Boomi ???)
   - Limited amount of molecules/nodes (from 3 to 10)
 
   ### 1.6 Key customers/contributors
-  - AT&T, American Expres
+  - Dell, NNIT, Novartis, BNP Paribas, Chevron, Sky, etc.
 
 ## 2. Weaknesses
   Weaknesses: items as disadvantages, limited functions.
