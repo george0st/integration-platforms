@@ -31,7 +31,7 @@ Last update: 2025/10 (Apache NiFi 2.6)
   ### 1.3 Connectors
   - **Summary**
     - only infrastructure connectors/processors, see [link](https://nifi.apache.org/components/)
-  - **Infrastructure connectors**
+  - **Technology connectors**
     - File/Batch
       - SFTP/FTP, Azure BlobStorage, Azure DataLake, AWS S3, Google CloudBucket, Google Drive   
     - SQL

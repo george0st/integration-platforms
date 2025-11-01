@@ -33,7 +33,7 @@ Last update: 2025/10 (Boomi ???)
   ### 1.3 Connectors
   - **Summary**
     - 1500+ connectors, see [link](https://boomi.com/connectors/)
-  - **Infrastructure connectors**
+  - **Technology connectors**
     - File/Batch
       - SFTP/FTP, Azure Blob Storage, AWS S3, Google Storage
     - SQL

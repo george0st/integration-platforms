@@ -14,6 +14,7 @@ When to choose Boomi if:
 
 ## 2. Compare
 
+### 2.1 Pricing & Support
 |                                | Apache NiFi disadvantage (compare with Boomi)                                                | Boomi adventages (compare with NiFi)                       |
 |--------------------------------|----------------------------------------------------------------------------------------------|------------------------------------------------------------|
 | Vendor lock-in                 | None                                                                                         | Yes, typically annual contracts
@@ -23,16 +24,40 @@ When to choose Boomi if:
 | Support channel                |                                                                                              |
 | Support and SLA                | Community support (without SLA definition)                                                   | Commerce support, SLA, onboarding
 | Training                       |                                                                                              |
+
+### 2.2 Architecture
+|                                | Apache NiFi disadvantage (compare with Boomi)                                                | Boomi adventages (compare with NiFi)                       |
+|--------------------------------|----------------------------------------------------------------------------------------------|------------------------------------------------------------|
 | Architecture                   |                                                                                              |
 | Cloud architecture             | Without iPass (own hosting is needed)                                                        | Full cloud solution (SaaS)
-| Security certification         | Without enterprise certifications (e.g. HIPAA, SOC2)                                         | Enterprise compliance
-| Security SSO + RBAC            |                                                                                              |
+
+### 2.3 Integration
+
+|                                | Apache NiFi disadvantage (compare with Boomi)                                                | Boomi adventages (compare with NiFi)                       |
+|--------------------------------|----------------------------------------------------------------------------------------------|------------------------------------------------------------|
 | Integration                    | ~100 connectors/processors, focus on technology connectors (missing business connectors)     | >1.000 connectors, technology connectors + business connectors (Salesforce, SAP, NetSuite, etc.)
+
+### 2.4 Development & Deployment
+|                                | Apache NiFi disadvantage (compare with Boomi)                                                | Boomi adventages (compare with NiFi)                       |
+|--------------------------------|----------------------------------------------------------------------------------------------|------------------------------------------------------------|
 | Code management                | Limited own versioning (for extended functionalities, ext tools are needed GitHub/Lab, etc.) | Build in versioning with CI/CD               
 | Change management (inc. CI/CD) | Without support (only exp/imp flows)                                                         | Full support versioning/packaging, deployment/rollback, env. configuration
 | Developer GUI                  | Drag & Drop UI, without content hierarchy                                                    | Drag & Drop UI, content hieararchy
+
+### 2.5 Security
+|                                | Apache NiFi disadvantage (compare with Boomi)                                                | Boomi adventages (compare with NiFi)                       |
+|--------------------------------|----------------------------------------------------------------------------------------------|------------------------------------------------------------|
+| Security certification         | Without enterprise certifications (e.g. HIPAA, SOC2)                                         | Enterprise compliance
+| Security SSO + RBAC            |                                                                                              |
+
+### 2.6 Maintenance
+|                                | Apache NiFi disadvantage (compare with Boomi)                                                | Boomi adventages (compare with NiFi)                       |
+|--------------------------------|----------------------------------------------------------------------------------------------|------------------------------------------------------------|
 | Monitoring and alerts          | Basic functionalities, external tooling is needed                                            | Native monitoring, allerts, audit logs               
 | Reporting                      |                                                                                              | 
+
+TBD. Known limits
+
 
 ## 3. Details
 TBD.
