@@ -28,7 +28,7 @@ Last update: 2025/10 (Boomi ???)
     - Kafka (via connector)
     - Event Streams (via Apache Pulsar, paid function)
   - **Native formats**
-    - XML, JSON, CSV, TXT, EDI
+    - CSV, TXT, XML, JSON, EDI
 
   ### 1.3 Connectors
   - **Summary**
