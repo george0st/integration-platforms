@@ -55,7 +55,7 @@ Last update: 2025/10 (Apache NiFi 2.6)
   - Unlimited amount of nodes (real clusters use from 2 to 1k nodes)
 
   ### 1.6 Key customers/contributors
-  - Cloudera, Snowflake, Apple, IBM, Ksolves
+  - Cloudera, Snowflake, Apple, SAP, EPAM, Ksolves
   - Etc. (see https://nifi.apache.org/community/powered-by/)
 
 ## 2. Weaknesses
