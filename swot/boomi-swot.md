@@ -35,7 +35,7 @@ Last update: 2025/10 (Boomi ???)
     - 1500+ connectors, see [link](https://boomi.com/connectors/)
   - **Infrastructure connectors**
     - File/Batch
-      - SFTP/FTP, Google Storage, Azure Blob Storage, AWS S3
+      - SFTP/FTP, Azure Blob Storage, AWS S3, Google Storage
     - SQL
       - MySQL, Postgress, MS SQL, Oracle, Redshift, JDBC/ODBC, Firebird (via JDBC)
     - NoSQL
