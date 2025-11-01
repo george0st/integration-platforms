@@ -27,30 +27,45 @@ When to choose Boomi:
 | SLA                | Without SLA                                    | SLA based on support level (24x7, etc.)                                                                           
 | Training           |                                                |
 
-### 2.2 Architecture
-|                                | Apache NiFi                                                | Boomi                      |
-|--------------------------------|------------------------------------------------------------|----------------------------|
-| Architecture                   |                                                            |
-| Cloud architecture             | Without iPass (own hosting is needed)                      | Full cloud solution (SaaS) 
+### 2.2 Architecture & Scaling
+|                    | Apache NiFi                                                         | Boomi                      |
+|--------------------|---------------------------------------------------------------------|----------------------------|
+| Architecture       |                                                                     |
+| Cloud architecture | Without iPass (own hosting is needed)                               | Full cloud solution (SaaS) 
+| Scaling            | Without limitations for scale up/out (also solutions with 1k nodes) | Cluster size till 10 moleculas/nodes
+| Limits             | n/a                                                                 | Maximal amount of moleculas/nodes in one cluster
+
 
 ### 2.3 Integration
 
-|                                | Apache NiFi                                                | Boomi                      |
-|--------------------------------|------------------------------------------------------------|----------------------------|
-| Integration                    | ~100 connectors/processors, focus on technology connectors (missing business connectors)     | >1.000 connectors, technology connectors + business connectors (Salesforce, SAP, NetSuite, etc.)
+|                 | Apache NiFi                                                                                  | Boomi                      |
+|-----------------|----------------------------------------------------------------------------------------------|----------------------------|
+| Integration     | ~100 connectors/processors, focus on technology connectors (SFTP, Mongo, MySQL, Kafka, etc.) | >1.000 connectors, technology connectors + business connectors (Salesforce, SAP, NetSuite, etc.)
+| Native formates | CSV, XML, JSON                                                                               | CSV, TXT, XML, JSON, EDI
+| Limits          | Missing business connectors (SalesForce, SAP, MS Dynamics, etc.)                             |
+
 
 ### 2.4 Development & Deployment
-|                                | Apache NiFi                                                | Boomi                      |
-|--------------------------------|------------------------------------------------------------|----------------------------|
-| Code management                | Limited own versioning (for extended functionalities, ext tools are needed GitHub/Lab, etc.) | Build in versioning with CI/CD               
-| Change management (inc. CI/CD) | Without support (only exp/imp flows)                                                         | Full support versioning/packaging, deployment/rollback, env. configuration
-| Developer GUI                  | Drag & Drop UI, without content hierarchy                                                    | Drag & Drop UI, content hieararchy
+|                     | Apache NiFi                                                                                  | Boomi                                                                      |
+|---------------------|----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| Runtime environment | Java 21 (in NiFi v2.6)                                                                       | Java 11 (in Boomi v ??)
+| Developer GUI       | Drag & Drop UI, without content hierarchy                                                    | Drag & Drop UI, content hierarchy
+| Sub-flow            | Yes (main flow & sub/flow, shared controllers)                                               | Yes (main flow & sub-flow, shared connectors)
+| Testing             | In the GUI (flow & the processor levels)                                                     | In the GUI (test flow) 
+| Env. configuration  | Yes (via ???)                                                                                | Yes (via extensions)
+| Code management     | Limited own versioning (for extended functionalities, ext tools are needed GitHub/Lab, etc.) | Build in versioning in tool                                             
+| CI/CD               | No (only exp/imp flow files, without CI/CD)                                                  | Yes (full support versioning/packaging, deployment/rollback, env. configuration) 
+
+NOTE: 
+ - NiFi, No CI/CD 
+ - Boomi, older Java version, can limited the better performance and generate issue in case of build our own connectors (if needed)
 
 ### 2.5 Security
-|                                | Apache NiFi                                                | Boomi                      |
-|--------------------------------|------------------------------------------------------------|----------------------------|
-| Security certification         | Without enterprise certifications (e.g. HIPAA, SOC2)                                         | Enterprise compliance
-| Security SSO + RBAC            |                                                                                              |
+|                 | Apache NiFi                                                | Boomi                      |
+|-----------------|------------------------------------------------------------|----------------------------|
+| Security certification | Without enterprise certifications (e.g. HIPAA, SOC2)                                         | Enterprise compliance
+| Security SSO    |                                                                                              |
+| Security RBAC   |                                                                                              |
 
 ### 2.6 Maintenance
 |                                | Apache NiFi                                                | Boomi                      |
