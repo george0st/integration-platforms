@@ -31,33 +31,31 @@ Last update: 2025/10 (Apache NiFi 2.6)
   ### 1.3 Connectors
   - **Summary**
     - only infrastructure connectors/processors, see [link](https://nifi.apache.org/components/)
-  - **Infrastructure connectors**
-  - File/Batch
-    - SFTP/FTP, Azure BlobStorage, Azure DataLake, AWS S3, Google CloudBucket, Google Drive   
-  - SQL
-    - MySQL, JDBC
-  - NoSQL
-    - DynamoDB, Mongo, Google BigQuery
-  - Event streaming
-    - Kafka, JMS/AMQP/MQTT, Azure EventHub, Google Cloud PubSubs, KinesisStream  
-  - Other
-    - WebSocket, Amazon Lambda, Splunk, SalesForce
-    - ElasticSearch, IMAP, POP3, Slack, Twitter, DropBox, ZenDesk, Amazon Glue 
-    - GitHub, GitLab
+  - **Technology connectors**
+    - File/Batch
+      - SFTP/FTP, Azure BlobStorage, Azure DataLake, AWS S3, Google CloudBucket, Google Drive   
+    - SQL
+      - MySQL, JDBC
+    - NoSQL
+      - DynamoDB, Mongo, Google BigQuery
+    - Event streaming
+      - Kafka, JMS/AMQP/MQTT, Azure EventHub, Google Cloud PubSubs, KinesisStream  
+    - Other
+      - WebSocket, Amazon Lambda, Splunk, SalesForce
+      - ElasticSearch, IMAP, POP3, Slack, Twitter, DropBox, ZenDesk, Amazon Glue 
+      - GitHub, GitLab, Azure DevOps
 
   ### 1.4 Environment
   - Java 21
-  - CI/CD - own, GitHub, GitLab
+  - CI/CD - own, GitHub, GitLab, Azure DevOps
 
   ### 1.5 Architecture
   - Pear-to-pear cluster architecture
   - Node coordination and primary node definition via Zookeeper
   - Unlimited amount of nodes (real clusters use from 2 to 1k nodes)
 
-  ### 1.6 Key contributors
-  - Cloudera
-  - Snowflake
-  - Ksolves
+  ### 1.6 Key customers/contributors
+  - Cloudera, Snowflake, Apple, IBM, Ksolves
   - Etc. (see https://nifi.apache.org/community/powered-by/)
 
 ## 2. Weaknesses

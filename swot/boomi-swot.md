@@ -33,9 +33,9 @@ Last update: 2025/10 (Boomi ???)
   ### 1.3 Connectors
   - **Summary**
     - 1500+ connectors, see [link](https://boomi.com/connectors/)
-  - **Infrastructure connectors**
+  - **Technology connectors**
     - File/Batch
-      - SFTP/FTP, Google Storage, Azure Blob Storage, AWS S3
+      - SFTP/FTP, Azure Blob Storage, AWS S3, Google Storage
     - SQL
       - MySQL, Postgress, MS SQL, Oracle, Redshift, JDBC/ODBC, Firebird (via JDBC)
     - NoSQL
@@ -56,7 +56,8 @@ Last update: 2025/10 (Boomi ???)
   ### 1.5 Architecture
   - Limited amount of molecules/nodes (from 3 to 10)
 
-  ### 1.6 Key contributors
+  ### 1.6 Key customers/contributors
+  - AT&T, American Expres
 
 ## 2. Weaknesses
   Weaknesses: items as disadvantages, limited functions.
